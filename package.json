@@ -1,0 +1,14 @@
+{
+  "name": "prediction-node-operator",
+  "version": "0.1.0",
+  "description": "Software for running a node that resolves and monitors markets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
